@@ -67,7 +67,7 @@ ul li a:hover::before{
 
 .btn{
     width: 120px;
-    height: 40px;
+    height: 30px;
     border-radius: 8px;
     background-color: var(--red-color);
     color: var(--primery-color);
@@ -75,7 +75,7 @@ ul li a:hover::before{
     border: none;
     cursor: pointer;
     font-size: 14px;
-    padding: 0 5px;
+    padding: 0 3px;
     font-weight: 400;
 }
 
