@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat', sans-serif;       
+}
+:root{
+    --primery-color: #fff;
+    --primery-shade: #f7f5f2;
+    --secondary-color: #111;
+    --secondary-shade: #3b3b3b;
+    --red-color: #d40;
+    --red-shade: #b20600;
+    --accent-color: #ffeebf;
+}
+ 
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* header section  */
+
+header{
+    background:  rgb(2, 0, 36);
+    background: linear-gradient(90deg,   rgba(2, 0, 36, 1) 0%,  rgba(50, 50, 51, 1) 35%,  rgba(0, 212, 55, 1) 80%,);
+    background: linear-gradient(to right, #040400, #240, #03b);
+    color: var(--primery-color);
+}
+
+.nav-bar {
+    padding: 30px 0;
+}
+
+span{
+    color: var(--red-color); 
+}
+
+ul li a{
+    margin: 0 10px;
+    padding: 0 5px;
+    color: var(--accent-color);
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+}
+    
+ul li a::before{
+    content: '';
+    width: 0;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    height: 2px;
+    background-color: var(--primery-color);
+    transition: 0.6s ease; 
+}
+
+ul li a:hover::before{
+    width: 100%;
+}
+/* button */
+
+.btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: var(--red-color);
+    color: var(--primery-color);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 0 5px;
+    font-weight: 500;
+}
+
+.btn:hover{
+    background-color: var(--red-shade);
+    color: var(--primery-shade);
+    border: 2px solid var(--red-color);
+}
+
+
+
+.content{
+    height: 90vh;
+    position: relative;
+}
+
+.right img{
+    width: 40%;
+    position: relative;
+    z-index: 999;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.right img:hover{
+    filter: drop-shadow(16px 5px 20px burlywood);
+}
+
+
+
+
+h4, p{
+    font-family: 'Poppins', sans-serif;
+}
+
+.color-box{
+    width: 250px;
+    height: 260px;
+    border: 5px solid red;
+    transform: rotate(360deg);
+    position: absolute;
+    top: 120px;
+    right: 10px;
+    
+
+}
