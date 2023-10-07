@@ -23,16 +23,16 @@
     text-transform: uppercase;
 }
 
-.f-w-400{
-    font-weight: 400;
-}
-
 .f-w-500{
     font-weight: 500;
 }
 
 .f-w-600{
     font-weight: 600;
+}
+
+.f-w-700{
+    font-weight: 700;
 }
 
 .letter-spacing4{
@@ -56,6 +56,6 @@
 }
    
 .my-t-10{
-    margin-top: 10px;
+    margin-top: 20px;
 }
     
