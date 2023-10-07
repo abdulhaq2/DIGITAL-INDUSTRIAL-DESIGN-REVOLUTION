@@ -3,8 +3,6 @@
     margin: 0 auto;
 }
 
-
-
 .flex{
     display: flex;
 }
@@ -42,7 +40,7 @@
 }
 
 .btn2{
-    width: 120px;
+    width: 100px;
 }
 
 .flex2{
