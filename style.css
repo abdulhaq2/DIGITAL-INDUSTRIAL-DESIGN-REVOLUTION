@@ -67,7 +67,7 @@ ul li a:hover::before{
 
 .btn{
     width: 120px;
-    height: 30px;
+    height: 20px;
     border-radius: 8px;
     background-color: var(--red-color);
     color: var(--primery-color);
@@ -95,7 +95,7 @@ ul li a:hover::before{
 .right img{
     width: 20%;
     position: relative;
-    z-index: 1300;
+    z-index: 999;
     cursor: pointer;
     transition: 0.3s ease;
 }
