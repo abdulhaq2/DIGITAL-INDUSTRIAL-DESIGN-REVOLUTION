@@ -94,7 +94,7 @@ ul li a:hover::before{
 .right img{
     width: 40%;
     top: 100px;  
-    right: 120px; 
+    right: 0px; 
     z-index: 999;
     cursor: pointer;
     transition: 0.3s ease;
