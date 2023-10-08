@@ -93,8 +93,8 @@ ul li a:hover::before{
 
 .right img{
     width: 100%;
-    top: 200px;  
-    right: 20px; 
+    top: 200vh;  
+    right: 20vh; 
     z-index: 999;
     cursor: pointer;
     transition: 0.3s ease;
@@ -110,12 +110,12 @@ h4, p{
 
 .color-box{
     width: 250px;
-    height: 260px;
+    height: 260vh;
     border: 5px solid red;
     transform: rotate(360deg);
     position: absolute;
-    top: 200px;
-    right: 50px;
+    top: 200vh;
+    right: 50vh;
     
 
 }
