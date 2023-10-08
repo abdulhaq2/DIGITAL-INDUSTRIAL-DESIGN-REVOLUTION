@@ -88,12 +88,12 @@ ul li a:hover::before{
 
 
 .content{
-    height: 30vh;
+    height: 100vh;
     position: relative;
 }
 
 .right img{
-    width: 130%;
+    width: 20%;
     position: relative;
     z-index: 999;
     cursor: pointer;
