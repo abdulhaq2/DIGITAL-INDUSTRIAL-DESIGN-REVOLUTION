@@ -85,23 +85,21 @@ ul li a:hover::before{
     border: 2px solid var(--red-color);
 }
 
-
-
 .content{
     height: 100vh;
-    position: relative;
+    top: 120px;   
 }
 
 .right img{
     width: 20%;
-    position: relative;
+    top: 120px;   
     z-index: 999;
     cursor: pointer;
     transition: 0.3s ease;
 }
 
 .right img:hover{
-    filter: drop-shadow(56px 5px 20px burlywood);
+    filter: drop-shadow(16px 5px 20px burlywood);
 }
 
 h4, p{
