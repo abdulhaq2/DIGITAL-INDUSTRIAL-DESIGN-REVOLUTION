@@ -92,7 +92,7 @@ ul li a:hover::before{
 }
 
 .right img{
-    width: 20%;
+    width: 50%;
     top: 200px;  
     right: 20%x; 
     z-index: 999;
